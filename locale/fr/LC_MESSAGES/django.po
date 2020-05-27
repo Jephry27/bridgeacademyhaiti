@@ -1,0 +1,564 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 17:35-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\bridgeacademy_website\settings.py:121 .\templates\base.html:68
+#: .\templates\home_base.html:63
+msgid "English"
+msgstr "Anglais"
+
+#: .\bridgeacademy_website\settings.py:122 .\templates\base.html:69
+#: .\templates\home_base.html:64
+msgid "French"
+msgstr "Français"
+
+#: .\bridgeweb_app\templates\index.html:19
+msgid "WELCOME TO BRIDGE ACADEMY HAITI"
+msgstr "BIENVENUE SUR BRIDGE ACADEMY HAITI"
+
+#: .\bridgeweb_app\templates\index.html:34
+msgid "ACADEMICS"
+msgstr "ACADEMIQUE"
+
+#: .\bridgeweb_app\templates\index.html:38
+msgid ""
+"Bridge Academy is a first through twelfth grade, private, bilingual, and "
+"secular school. The goal of Bridge Academy’s learning program is to nurture "
+"and cultivate our students to become independent leaders in their community "
+"through the use of a dynamic and supportive curriculum..."
+msgstr ""
+"Bridge Academy est une école privée, bilingue et laïque, qui accueille des "
+"élèves de la première à la douzième année. Le programme d’apprentissage de "
+"Bridge Academy a pour objectif de former ses élèves à devenir des leaders "
+"indépendants dans leur communauté grâce à l’utilisation d’un programme "
+"d’études dynamique et soutenu..."
+
+#: .\bridgeweb_app\templates\index.html:46 .\templates\base.html:41
+#: .\templates\home_base.html:36
+msgid "Our Program"
+msgstr "Notre Programme"
+
+#: .\bridgeweb_app\templates\index.html:48
+msgid "OUR PROGRAM"
+msgstr "NOTRE PROGRAMME"
+
+#: .\bridgeweb_app\templates\index.html:53
+#: .\bridgeweb_app\templates\program.html:84
+msgid "Music and Art"
+msgstr "Musique et Art"
+
+#: .\bridgeweb_app\templates\index.html:55
+msgid "MUSIC AND ART"
+msgstr "MUSIQUE ET ART"
+
+#: .\bridgeweb_app\templates\index.html:60
+#: .\bridgeweb_app\templates\program.html:118
+msgid "Athletics"
+msgstr "Éducation physique et sportive"
+
+#: .\bridgeweb_app\templates\index.html:62
+msgid "ATHLETICS"
+msgstr "EDUCATION PHYSIQUE ET SPORTIVE"
+
+#: .\bridgeweb_app\templates\index.html:70
+#: .\bridgeweb_app\templates\program.html:18
+msgid ""
+"Our curriculum meets rigorous standards set by Bridge Academy and the state "
+"of Texas through the Texas Tech University Independent School District "
+"(TTUISD) program. Students have the opportunity to pair an American "
+"education with the existing Bridge curriculum; they participate in a "
+"bilingual, dual-diploma program at the end of which they will earn an "
+"accredited and competitive US high school diploma."
+msgstr ""
+"Notre programme d’études répond aux normes rigoureuses établies par Bridge "
+"Academy et l’État du Texas dans le cadre du programme TTUISD (Texas Tech "
+"University Independent School District). Les élèves ont l’opportunité "
+"d’associer une éducation américaine au programme de Bridge Academy. Ils "
+"bénéficient d’un programme bilingue, au terme duquel ils obtiendront un "
+"diplôme américain accrédité et compétitif."
+
+#: .\bridgeweb_app\templates\program.html:17
+msgid "About our program"
+msgstr "Notre programme"
+
+#: .\bridgeweb_app\templates\program.html:30
+msgid "Discipline"
+msgstr "Discipline"
+
+#: .\bridgeweb_app\templates\program.html:34
+msgid ""
+"At Bridge Academy we view discipline as a part of human development.  "
+"Teachers and staff members are encouraged to use positive reinforcement.  "
+"However, students are expected to use self-control, self-discipline and to "
+"follow rules and guidelines. When necessary, disciplinary actions are taken "
+"in such a way as to enhance personal growth and to uphold a sense of "
+"fairness. "
+msgstr ""
+"À Bridge Academy, la discipline fait partie du développement humain. Les "
+"enseignants et les membres du personnel sont encouragés à utiliser le "
+"renforcement positif. Cependant, les élèves sont censés faire preuve de "
+"maîtrise de soi et de discipline et se conformer aux règles et directives."
+
+#: .\bridgeweb_app\templates\program.html:41
+msgid "Literacy"
+msgstr "Compétences de la langue et du langage"
+
+#: .\bridgeweb_app\templates\program.html:42
+msgid ""
+"Our literacy program provides differentiated instruction that aims to target "
+"the learning needs and potential of students. It aims to help students with "
+"an understanding of the importance of what they are learning in school so "
+"that they may apply it beyond school.  It also helps students to decipher "
+"their strengths and identify where they need to improve."
+msgstr ""
+"Notre programme propose un enseignement différencié visant à cibler les "
+"besoins et le potentiel d'apprentissage de chaque élève. Il vise à aider les "
+"élèves à comprendre l’importance de l’apprentissage scolaire pour leur vie "
+"future. Il les aide également à découvrir leurs forces de même qu’à "
+"identifier les domaines dans lesquels ils doivent s’améliorer."
+
+#: .\bridgeweb_app\templates\program.html:47
+msgid ""
+"Our literacy program includes our French and English courses geared towards "
+"learners of the language throughout the primary and secondary curriculum.  "
+"It also encompasses our language electives, French and Spanish in high "
+"school, and activities that are designed to raise literacy in all of our "
+"courses."
+msgstr ""
+"Notre programme de langue et du langage comprend nos cours de français et "
+"d'anglais destinés aux apprenants de la langue tout au long du cursus "
+"primaire et secondaire. Il englobe également nos cours électifs de langue, "
+"le français et l'espagnol à l'école secondaire, et les activités qui visent "
+"à accroître la compétence langagière dans tous nos cours."
+
+#: .\bridgeweb_app\templates\program.html:49
+msgid ""
+"Our Research Skills course provides the knowledge and practice necessary to "
+"complete effective inquiry.  The goal of this course is to teach our "
+"students how to be digitally responsible and to provide students with an "
+"understanding of the economic, legal, and social issues surrounding the use "
+"and access of information ethically and legally."
+msgstr ""
+"Notre cours d’introduction à la recherche vise à fournir aux élèves les "
+"connaissances et la pratique nécessaires pour mener à bien une recherche "
+"efficace. L'objectif de ce cours est d'enseigner à nos élèves à être "
+"numériquement responsables et leur fournir une meilleure compréhension des "
+"enjeux économiques, juridiques et sociaux liés à l'utilisation et à l'accès "
+"à l'information, aux niveaux éthique et légal."
+
+#: .\bridgeweb_app\templates\program.html:51
+msgid ""
+"In the high school, our students follow a standard-based curriculum through "
+"the state of Texas and students must take an End of Course (EOC) exam "
+"prescribed by the state in order to meet the requirements of a Texas high "
+"school diploma."
+msgstr ""
+"Au high school, nos élèves suivent un programme standardisé basé dans l'état "
+"du Texas et doivent passer un examen de fin de cours (EOC) prescrit par "
+"l'État afin de satisfaire aux exigences d'un diplôme de high school au Texas."
+
+#: .\bridgeweb_app\templates\program.html:59
+msgid "Resource Room"
+msgstr "Espace de ressources et d’apprentissage"
+
+#: .\bridgeweb_app\templates\program.html:64
+msgid ""
+"Students with special academic needs whether accelerated or self-paced are "
+"provided with differentiated assistance in the form of Individualized "
+"Educational Plan (IEP), within a separate and structured space known as "
+"Resource Room. In this setting, students benefit from one-on-one attention "
+"in order for them to work at their own pace and to succeed within their own "
+"abilities."
+msgstr ""
+"Le Ressource Room est un lieu distinct où un programme d’études spécial peut "
+"être offert à un élève présentant des difficultés d’apprentissage ou "
+"surdoué, individuellement ou en petit groupe. Au sein d’un espace structuré, "
+"les élèves ayant des besoins académiques spéciaux bénéficient d’une "
+"assistance différenciée sous la forme d’un plan pédagogique individualisé "
+"(IEP)."
+
+#: .\bridgeweb_app\templates\program.html:70
+msgid "STEM ED"
+msgstr "STEM ED"
+
+#: .\bridgeweb_app\templates\program.html:71
+msgid ""
+"Bridge Academy understands the importance of STEM Ed in student "
+"development.  STEM is a program that forms students in four specific "
+"disciplines: science, technology, engineering, and mathematics.  Our STEM "
+"program aims to help students develop their critical and problem solving "
+"skills. Students are taught the importance and the application of the "
+"scientific method, which is central to creating a community of future "
+"inventors, investigators, and problem solvers."
+msgstr ""
+"Bridge Academy comprend l’importance de STEM ED dans le développement de "
+"l’élève. STEM est un programme qui a pour objectif de former les élèves dans "
+"quatre disciplines spécifiques: sciences, technologie, ingénierie et "
+"mathématiques, dans le cadre d’une approche interdisciplinaire et appliquée. "
+"Notre programme STEM vise à aider nos élèves à développer leurs compétences "
+"critiques et à résoudre des problèmes."
+
+#: .\bridgeweb_app\templates\program.html:76
+msgid ""
+"Students participate in hands-on, inquiry-based learning activities such as "
+"experiments in our laboratory, Open Courseware programs such as virtual "
+"labs, problem-based learning, math and physics, and technology activities in "
+"our computer labs."
+msgstr ""
+"Les élèves apprennent l’importance et l’application de la méthode "
+"scientifique, essentielle à la création d’une communauté de futurs "
+"inventeurs, chercheurs et spécialistes en résolution de problèmes. Ils "
+"participent à des activités pratiques et d’investigations, telles que des "
+"expériences dans notre laboratoire,  des didacticiels libres, des "
+"laboratoires virtuels, l’apprentissage basé sur la résolution de problèmes "
+"en mathématiques et physique et des activités technologiques diverses dans "
+"notre laboratoire informatique."
+
+#: .\bridgeweb_app\templates\program.html:85
+msgid ""
+"Our music and art curriculum enriches learning and provides students the "
+"setting to practically apply what they learn in the academic realm."
+msgstr ""
+"Notre programme de musique et d’art enrichit l’apprentissage et offre aux "
+"élèves un cadre pour appliquer concrètement ce qu’ils apprennent dans la "
+"sphère académique."
+
+#: .\bridgeweb_app\templates\program.html:87
+msgid ""
+"It also affords students the opportunity to learn skills that will make them "
+"successful in life.  Music and art enhance students’ creativity and boost "
+"their social skills.  The curriculum includes:"
+msgstr ""
+"Il leur offre également la possibilité d’acquérir des compétences qui leur "
+"permettront de réussir dans la vie. La musique et l'art améliorent la "
+"créativité des élèves et stimulent leurs compétences sociales. Le programme "
+"comprend:"
+
+#: .\bridgeweb_app\templates\program.html:93
+msgid "Music history"
+msgstr "Histoire de la musique"
+
+#: .\bridgeweb_app\templates\program.html:94
+msgid "Music theory"
+msgstr "Théorie musicale"
+
+#: .\bridgeweb_app\templates\program.html:95
+#, fuzzy
+#| msgid "Field trips"
+msgid "Fine arts"
+msgstr "Les excursions"
+
+#: .\bridgeweb_app\templates\program.html:96
+msgid "Instruments: recorder, triangle, xylophone, piano"
+msgstr "Instruments: flute, triangle, xylophone, piano"
+
+#: .\bridgeweb_app\templates\program.html:100
+msgid "*optional through afterschool program"
+msgstr "*programme optionnel après la journée de classe"
+
+#: .\bridgeweb_app\templates\program.html:105 .\templates\base.html:46
+#: .\templates\home_base.html:41
+msgid "Social Studies"
+msgstr "Sciences Sociales"
+
+#: .\bridgeweb_app\templates\program.html:110
+msgid ""
+"The social studies program requires students to engage in discussions, "
+"productive research, interactive debates and analytical and logical "
+"reasoning. The main goal of these courses is to provide students with the "
+"knowledge and skills to become informed, productive citizens who are able to "
+"think critically.  Our social studies program covers Haitian, as well as "
+"American and world history and geography. This program also encompasses our "
+"civics, Haitian studies, Breaking News, and economics courses."
+msgstr ""
+"Le programme de sciences sociales encourage les élèves à prendre part à des "
+"discussions, à des recherches productives, à des débats interactifs et à "
+"développer un raisonnement analytique et logique. L'objectif principal de "
+"ces cours est de fournir aux élèves les connaissances et les compétences "
+"nécessaires pour devenir des citoyens informés, productifs et capables de "
+"pensée critique. Notre programme de sciences sociales couvre l'histoire et "
+"la géographie haïtiennes, américaines et mondiales. Ce programme comprend "
+"également nos cours d’éducation civique, d’études haïtiennes, d’actualités "
+"et d’économie."
+
+#: .\bridgeweb_app\templates\program.html:119
+msgid ""
+"The goal of Bridge Academy’s athletic program is to encourage sportsmanship, "
+"teamwork, and camaraderie among its students. It also enables individuals to "
+"develop the knowledge, skills, and attitudes necessary to lead an active, "
+"healthy lifestyle. "
+msgstr ""
+"L'objectif du programme sportif de Bridge Academy est d'encourager chez ses "
+"élèves le fairplay, l’esprit d'équipe, et la camaraderie."
+
+#: .\bridgeweb_app\templates\program.html:125
+msgid ""
+"Our physical Education classes start in first grade. Our middle school and "
+"our high school students have opportunities to join a variety of team sports "
+"and participate in interscholastic competitions.  While we encourage a "
+"competitive attitude and instill a desire to win, we dissuade poor "
+"sportsmanship as well as behaviors contrary to the Bridge Academy mission."
+msgstr ""
+"Les cours d'éducation physique commencent en première année. Nos élèves ont "
+"l’opportunité de participer à divers sports d'équipe (volleyball, "
+"basketball, football et tennis de table) et à des compétitions "
+"interscolaires. Nous encourageons une attitude compétitive et nous "
+"inculquons le désir de gagner chez nos élèves, tout en leur recommandant "
+"d’éviter un esprit sportif négatif ainsi que des comportements contraires à "
+"la vision de Bridge Academy."
+
+#: .\bridgeweb_app\templates\program.html:126
+msgid "Our students play volleyball, basketball, soccer, and table tennis. "
+msgstr ""
+"Nos élèves jouent au volleyball, basketball, football et au tennis de table. "
+
+#: .\bridgeweb_app\templates\program.html:132
+msgid "Community service/ volunteer work"
+msgstr "Service communautaire / Volontariat"
+
+#: .\bridgeweb_app\templates\program.html:138
+msgid ""
+"Volunteering provides the students with social skills and the opportunities "
+"to understand their role as members of the community.  It also teaches them "
+"the value of giving back and is a requirement of their civics program."
+msgstr ""
+"Le volontariat permet aux élèves d’acquérir des compétences sociales et leur "
+"offre des opportunités de mieux appréhender leur rôle comme membres de leur "
+"communauté. Il est une exigence de leur programme de civisme et  leur "
+"apprend également à donner en retour."
+
+#: .\bridgeweb_app\templates\program.html:146
+msgid "Afterschool Program"
+msgstr "Tutorat"
+
+#: .\bridgeweb_app\templates\program.html:151
+msgid ""
+"Our afterschool tutoring program not only provides underperforming students "
+"with homework assistance but gives students the opportunity to improve on "
+"aspects of their lives that may serve as obstacles to their learning such as "
+"literacy, study skills, and organizational skills. Tutors work with students "
+"individually and in small groups to provide guidance, encouragement as well "
+"as academic assistance."
+msgstr ""
+"Notre programme de tutorat fournit, après la journée de classe, non "
+"seulement une aide aux devoirs à des étudiants moins performants, mais leur "
+"donne également la possibilité d'améliorer certains aspects de leur vie qui "
+"pourraient constituer des obstacles à leur apprentissage, tels que des "
+"déficits en compétences du langage, d'étude et d’organisation. Les tuteurs "
+"travaillent avec les élèves individuellement et en petits groupes pour "
+"fournir des conseils, des encouragements et une assistance scolaire."
+
+#: .\bridgeweb_app\templates\program.html:157
+msgid "Piano"
+msgstr "Piano"
+
+#: .\bridgeweb_app\templates\program.html:163
+msgid ""
+"Our piano lessons are geared towards beginners and intermediate students.  "
+"Playing the piano promotes high performance in students, helps them to have "
+"a more solid understanding of STEM disciplines, promotes creative thinking, "
+"increases diligence, responsibility, concentration, self-esteem, and motor "
+"skills."
+msgstr ""
+"Nos leçons de piano sont destinées aux élèves débutants et intermédiaires. "
+"Jouer du piano favorise une meilleure performance des élèves, les aide à "
+"mieux comprendre les disciplines STEM, encourage la pensée créatrice, "
+"augmente l’assiduité, la responsabilité, la concentration, l'estime de soi "
+"et la motricité."
+
+#: .\bridgeweb_app\templates\program.html:171 .\templates\base.html:44
+#: .\templates\home_base.html:39
+msgid "Extracurricular activities"
+msgstr "Activités extracurriculaires"
+
+#: .\bridgeweb_app\templates\program.html:177
+msgid ""
+"Extracurricular activities are a worthwhile pursuit. Students who are "
+"involved in different activities gain experiences that will help them in "
+"college and beyond. They also learn to demonstrate commitment, discipline, "
+"and higher performance in their academics."
+msgstr ""
+"Les activités extracurriculaires sont un ajout important à notre programme. "
+"Les élèves qui participent à différentes activités acquièrent des "
+"expériences qui les aideront à l’université et au-delà."
+
+#: .\bridgeweb_app\templates\program.html:183
+msgid "Clubs"
+msgstr "Clubs"
+
+#: .\bridgeweb_app\templates\program.html:184
+msgid ""
+"Bridge Academy offers diverse club options to the high school students. They "
+"choose the activity for which they have a genuine interest: Math and Chess "
+"club, Student Council, yearbook, newsletter, board games, art, wellness, and "
+"yoga."
+msgstr ""
+"Bridge Academy propose aux élèves divers choix de clubs, parmi lesquels "
+"mathématiques et échecs, jeux de société, travaux d’art, bien-être et yoga, "
+"conseil des élèves, yearbook, bulletin de nouvelles (The Bridge Herald). Les "
+"élèves choisissent l’activité pour laquelle ils ont un intérêt réel."
+
+#: .\bridgeweb_app\templates\program.html:186
+msgid "Within their participation in clubs, students learn among other skills:"
+msgstr ""
+"Au sein de ces clubs, les élèves acquièrent les compétences suivantes:"
+
+#: .\bridgeweb_app\templates\program.html:192
+msgid "Governance and immediate impact on their community"
+msgstr "Le sens des responsabilités et l’implication dans leur communauté"
+
+#: .\bridgeweb_app\templates\program.html:193
+msgid "Public-speaking"
+msgstr "L’art oratoire"
+
+#: .\bridgeweb_app\templates\program.html:194
+msgid "Leadership"
+msgstr "Le leadership"
+
+#: .\bridgeweb_app\templates\program.html:195
+msgid "Negotiation"
+msgstr "La négociation"
+
+#: .\bridgeweb_app\templates\program.html:196
+msgid "Money-management"
+msgstr "La gestion des ressources "
+
+#: .\bridgeweb_app\templates\program.html:197
+msgid "Time-management"
+msgstr "La gestion du temps"
+
+#: .\bridgeweb_app\templates\program.html:198
+msgid "Teamwork"
+msgstr "Le travail d’équipe"
+
+#: .\bridgeweb_app\templates\program.html:207
+msgid "Field trips"
+msgstr "Les excursions"
+
+#: .\bridgeweb_app\templates\program.html:211
+msgid ""
+"Throughout the school year, Field trips are organized for all grades. They "
+"allow students to connect what they learn in the classrooms to what is "
+"happening in the world."
+msgstr ""
+"Tout au long de l'année scolaire, des excursions sont organisées pour tous "
+"les niveaux. Elles permettent aux élèves de relier ce qu’ils apprennent en "
+"classe à ce qui se passe dans leur environnement et dans le monde."
+
+#: .\bridgeweb_app\templates\program.html:217 .\templates\base.html:45
+#: .\templates\home_base.html:40
+msgid "Events"
+msgstr "Événements spéciaux"
+
+#: .\bridgeweb_app\templates\program.html:222
+msgid ""
+"Bridge Academy organizes traditional events every year to celebrate "
+"holidays, and provide students with additional knowledge and skills. "
+"Students listen to inspiring speakers and participate in different "
+"workshops. The highlights are usually our Career and College Fair, The "
+"Health and Fitness Fair, our Thanksgiving dinner celebration, our Christmas "
+"party, and the different award ceremonies and graduation."
+msgstr ""
+"Bridge Academy organise des événements chaque année pour célébrer les fêtes "
+"traditionnelles ou fournir aux élèves des connaissances et des compétences "
+"supplémentaires. Les élèves ont l’opportunité d’écouter des conférenciers "
+"inspirants et de participer à divers ateliers. Les événements les plus "
+"marquants sont généralement le salon des carrières et des universités, le "
+"salon de la santé et du bien-être, le dîner de Thanksgiving, la fête de Noël "
+"et les différentes cérémonies de remise de distinctions spéciales et de "
+"collation de diplômes."
+
+#: .\templates\base.html:36 .\templates\home_base.html:32
+msgid "Home"
+msgstr "Accueille"
+
+#: .\templates\base.html:43 .\templates\home_base.html:38
+msgid "Our program"
+msgstr "Notre Programme"
+
+#: .\templates\base.html:51 .\templates\home_base.html:46
+msgid "About"
+msgstr "A Propos"
+
+#: .\templates\base.html:53 .\templates\home_base.html:48
+msgid "Mission and Vision"
+msgstr "Mission et vision"
+
+#: .\templates\base.html:54 .\templates\home_base.html:49
+msgid "Board of Directors"
+msgstr "Conseil de direction"
+
+#: .\templates\base.html:55 .\templates\home_base.html:50
+msgid "Academics"
+msgstr "L’académique"
+
+#: .\templates\base.html:56 .\templates\home_base.html:51
+msgid "Contact"
+msgstr "Contact"
+
+#: .\templates\base.html:65 .\templates\home_base.html:60
+msgid "Language"
+msgstr "Langue"
+
+#: .\templates\home_base.html:78
+msgid "1st through 12th Grade"
+msgstr "De la 1ère à la 12ème Année"
+
+#: .\templates\home_base.html:79
+msgid "Private, Bilingual, and Secular School."
+msgstr "Une école privée, bilingue et laïque"
+
+#~ msgid "Coming soon"
+#~ msgstr "Bientôt"
+
+#~ msgid ""
+#~ "Our literacy program provides differentiated instruction that aims to "
+#~ "target the learning needs and potential of students."
+#~ msgstr ""
+#~ "Notre programme propose un enseignement différencié visant à cibler les "
+#~ "besoins et le potentiel d'apprentissage de chaque élève."
+
+#~ msgid ""
+#~ "Bridge Academy understands the importance of STEM Ed in student "
+#~ "development.  STEM is a program that forms students in four specific "
+#~ "disciplines: science, technology, engineering, and mathematics."
+#~ msgstr ""
+#~ "Bridge Academy comprend l’importance de STEM ED dans le développement de "
+#~ "l’élève. STEM est un programme qui a pour objectif de former les élèves "
+#~ "dans quatre disciplines spécifiques : sciences, technologie, ingénierie "
+#~ "et mathématiques, dans le cadre d’une approche interdisciplinaire et "
+#~ "appliquée. "
+
+#~ msgid ""
+#~ "The social studies program requires students to engage in discussions, "
+#~ "productive research, interactive debates and analytical and logical "
+#~ "reasoning."
+#~ msgstr ""
+#~ "Le programme de sciences sociales encourage les élèves à prendre part à "
+#~ "des discussions, à des recherches productives, à des débats interactifs "
+#~ "et à développer un raisonnement analytique et logique."
+
+#~ msgid "STEM (in pamphlet)"
+#~ msgstr "STEM ED"
+
+#~ msgid ""
+#~ "Our literacy program provides differentiated instruction that aims to "
+#~ "target the learning needs and potential of students"
+#~ msgstr ""
+#~ "Notre programme propose un enseignement différencié visant à cibler les "
+#~ "besoins et le potentiel d'apprentissage de chaque élève."

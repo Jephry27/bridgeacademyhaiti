@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block link %}
+    <link rel="stylesheet" href="{% static 'css/home/base_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/program/style.css' %}">
+{% endblock link %}
+
+{% block title %}
+    <title>Our Program</title>
+{% endblock title %}
+
+{% block content %}
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-10 p-lg-10 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">{% trans "About our program" %}</h1>
+            <p class="lead font-weight-normal text-justify">{% blocktrans %}Our curriculum meets rigorous standards set by Bridge Academy and the state of Texas through the Texas Tech University Independent School District (TTUISD) program. Students have the opportunity to pair an American education with the existing Bridge curriculum; they participate in a bilingual, dual-diploma program at the end of which they will earn an accredited and competitive US high school diploma.{% endblocktrans %}</p>
+            {% comment %} <a class="btn btn-outline-secondary" href="#">{% trans "Coming soon" %}</a> {% endcomment %}
+        </div>
+        {% comment %} <div class="product-device product-device-1 shadow-sm d-none d-md-block"><img src="{% static 'images/ourprogram/bridgescience.png' %}"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> {% endcomment %}
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Discipline" %}</h2>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-5 bg-white rounded" src="{% static 'images/ourprogram/discipline.jpg' %}" width="100%" height="100%"></div>
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}At Bridge Academy we view discipline as a part of human development.  Teachers and staff members are encouraged to use positive reinforcement.  However, students are expected to use self-control, self-discipline and to follow rules and guidelines. When necessary, disciplinary actions are taken in such a way as to enhance personal growth and to uphold a sense of fairness. {% endblocktrans %}</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 40%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 bg-white rounded" src="{% static 'images/ourprogram/discipline2.jpg' %}" width="100%" height="100%"></div>
+        </div>
+
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Literacy" %}</h2>
+                <p class="lead">{% blocktrans %}Our literacy program provides differentiated instruction that aims to target the learning needs and potential of students. It aims to help students with an understanding of the importance of what they are learning in school so that they may apply it beyond school.  It also helps students to decipher their strengths and identify where they need to improve.{% endblocktrans %}</p>
+            </div>
+            <div class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-color: rgba(217, 189, 137, 1);"><img class="shadow-sm p-3 mb-2 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/literacy.JPG' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Our literacy program includes our French and English courses geared towards learners of the language throughout the primary and secondary curriculum.  It also encompasses our language electives, French and Spanish in high school, and activities that are designed to raise literacy in all of our courses.{% endblocktrans %}</p>
+
+                <p class="lead">{% blocktrans %}Our Research Skills course provides the knowledge and practice necessary to complete effective inquiry.  The goal of this course is to teach our students how to be digitally responsible and to provide students with an understanding of the economic, legal, and social issues surrounding the use and access of information ethically and legally.{% endblocktrans %}</p>
+
+                <p class="lead">{% blocktrans %}In the high school, our students follow a standard-based curriculum through the state of Texas and students must take an End of Course (EOC) exam prescribed by the state in order to meet the requirements of a Texas high school diploma.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Resource Room" %}</h2>
+            </div>
+            <div class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-color: rgba(217, 189, 137, 1);"><img class="shadow-sm p-3 mb-2 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/rr01.JPG' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Students with special academic needs whether accelerated or self-paced are provided with differentiated assistance in the form of Individualized Educational Plan (IEP), within a separate and structured space known as Resource Room. In this setting, students benefit from one-on-one attention in order for them to work at their own pace and to succeed within their own abilities.{% endblocktrans %}</p>
+            </div>
+        </div>
+
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "STEM ED" %}</h2>
+                <p class="lead">{% blocktrans %}Bridge Academy understands the importance of STEM Ed in student development.  STEM is a program that forms students in four specific disciplines: science, technology, engineering, and mathematics.  Our STEM program aims to help students develop their critical and problem solving skills. Students are taught the importance and the application of the scientific method, which is central to creating a community of future inventors, investigators, and problem solvers.{% endblocktrans %}</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 40%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 bg-white rounded" src="{% static 'images/ourprogram/scienceFair.JPG' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}Students participate in hands-on, inquiry-based learning activities such as experiments in our laboratory, Open Courseware programs such as virtual labs, problem-based learning, math and physics, and technology activities in our computer labs.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Music and Art" %}</h2>
+                <p class="lead">{% blocktrans %}Our music and art curriculum enriches learning and provides students the setting to practically apply what they learn in the academic realm.{% endblocktrans %}</p>
+
+                <p class="lead">{% blocktrans %}It also affords students the opportunity to learn skills that will make them successful in life.  Music and art enhance students’ creativity and boost their social skills.  The curriculum includes:{% endblocktrans %}</p>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-2 rounded" src="{% static 'images/ourprogram/music.jpg' %}" width="100%" height="100%"></div>
+            
+            <p class="lead">
+                <ul class="list-styled">
+                    <li>{% trans "Music history" %}</li>
+                    <li>{% trans "Music theory" %}</li>
+                    <li>{% trans "Fine arts" %}</li>
+                    <li>{% trans "Instruments: recorder, triangle, xylophone, piano" %}</li>
+                </ul>
+            </p>
+
+            <p class="lead">{% trans "*optional through afterschool program" %}</p>
+        </div>
+
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Social Studies" %}</h2>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 100%; height: 50%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/project.jpg' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}The social studies program requires students to engage in discussions, productive research, interactive debates and analytical and logical reasoning. The main goal of these courses is to provide students with the knowledge and skills to become informed, productive citizens who are able to think critically.  Our social studies program covers Haitian, as well as American and world history and geography. This program also encompasses our civics, Haitian studies, Breaking News, and economics courses.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Athletics" %}</h2>
+                <p class="lead">{% blocktrans %}The goal of Bridge Academy’s athletic program is to encourage sportsmanship, teamwork, and camaraderie among its students. It also enables individuals to develop the knowledge, skills, and attitudes necessary to lead an active, healthy lifestyle. {% endblocktrans %}</p>
+            </div>
+
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/Athletics.JPG' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Our physical Education classes start in first grade. Our middle school and our high school students have opportunities to join a variety of team sports and participate in interscholastic competitions.  While we encourage a competitive attitude and instill a desire to win, we dissuade poor sportsmanship as well as behaviors contrary to the Bridge Academy mission.{% endblocktrans %}</p>
+                <p class="lead">{% blocktrans %}Our students play volleyball, basketball, soccer, and table tennis. {% endblocktrans %}</p>
+            </div>
+        </div>
+
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Community service/ volunteer work" %}</h2>
+            </div>
+
+            <div class="bg-white shadow-sm mx-auto" style="width: 90%; height: 45%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" src="{% static 'images/ourprogram/littleones.JPG' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}Volunteering provides the students with social skills and the opportunities to understand their role as members of the community.  It also teaches them the value of giving back and is a requirement of their civics program.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Afterschool Program" %}</h2>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 40%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" src="{% static 'images/ourprogram/studypartners.jpg' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Our afterschool tutoring program not only provides underperforming students with homework assistance but gives students the opportunity to improve on aspects of their lives that may serve as obstacles to their learning such as literacy, study skills, and organizational skills. Tutors work with students individually and in small groups to provide guidance, encouragement as well as academic assistance.{% endblocktrans %}</p>
+            </div>
+        </div>
+
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Piano" %}</h2>
+            </div>
+
+            <div class="bg-white shadow-sm mx-auto" style="width: 90%; height: 45%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/bridgeArt.png' %}" width="100%" height="100%"></div>
+
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}Our piano lessons are geared towards beginners and intermediate students.  Playing the piano promotes high performance in students, helps them to have a more solid understanding of STEM disciplines, promotes creative thinking, increases diligence, responsibility, concentration, self-esteem, and motor skills.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Extracurricular activities" %}</h2>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 90%; height: 45%; border-radius: 21px 21px 0 0;">
+                <img class="shadow-sm p-3 mb-1 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/extracurricular.jpg' %}" width="100%" height="100%">
+            </div>
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Extracurricular activities are a worthwhile pursuit. Students who are involved in different activities gain experiences that will help them in college and beyond. They also learn to demonstrate commitment, discipline, and higher performance in their academics.{% endblocktrans %}</p>
+            </div>
+        </div>
+
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Clubs" %}</h2>
+                <p class="lead">{% blocktrans %}Bridge Academy offers diverse club options to the high school students. They choose the activity for which they have a genuine interest: Math and Chess club, Student Council, yearbook, newsletter, board games, art, wellness, and yoga.{% endblocktrans %}</p>
+
+                <p class="lead">{% blocktrans %}Within their participation in clubs, students learn among other skills:{% endblocktrans %}</p>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 40%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" src="{% static 'images/ourprogram/science_2.jpg' %}" width="100%" height="100%"></div>
+
+            <p class="lead">
+                <ul class="list-styled">
+                    <li>{% trans "Governance and immediate impact on their community" %}</li>
+                    <li>{% trans "Public-speaking" %}</li>
+                    <li>{% trans "Leadership" %}</li>
+                    <li>{% trans "Negotiation" %}</li>
+                    <li>{% trans "Money-management" %}</li>
+                    <li>{% trans "Time-management" %}</li>
+                    <li>{% trans "Teamwork" %}</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify text-white overflow-hidden" style="background-color: rgba(191, 94, 59, 1);">
+            <div class="my-3 p-3">
+                <h2 class="display-5 text-center">{% trans "Field trips" %}</h2>
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 50%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" src="{% static 'images/ourprogram/fieldtrips.jpg' %}" width="100%" height="100%"></div>
+            <div class="my-3 p-3">
+                <p class="lead">{% blocktrans %}Throughout the school year, Field trips are organized for all grades. They allow students to connect what they learn in the classrooms to what is happening in the world.{% endblocktrans %}</p>
+            </div>
+        </div>
+
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-justify overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center">{% trans "Events" %}</h2>
+            </div>
+
+            <div class="bg-white shadow-sm mx-auto" style="width: 90%; height: 45%; border-radius: 21px 21px 0 0;"><img class="shadow-sm p-3 mb-1 rounded" style="background-color: rgba(191, 94, 59, 1);" src="{% static 'images/ourprogram/events2.jpg' %}" width="100%" height="100%"></div>
+            <div class="my-3 py-3">
+                <p class="lead">{% blocktrans %}Bridge Academy organizes traditional events every year to celebrate holidays, and provide students with additional knowledge and skills. Students listen to inspiring speakers and participate in different workshops. The highlights are usually our Career and College Fair, The Health and Fitness Fair, our Thanksgiving dinner celebration, our Christmas party, and the different award ceremonies and graduation.{% endblocktrans %}</p>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
